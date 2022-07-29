@@ -1,0 +1,90 @@
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+td, p {
+  font-family: "Roboto", sans-serif;  
+}
+
+.bar, h1, button, table thead tr {
+  font-family: "Roboto Mono", sans-serif;
+}
+
+/* links */
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:link {
+  color: #7542cf;
+}
+
+a:visited {
+  color: #772ff7;
+}
+
+a:active, a:hover {
+  text-decoration: dotted underline;
+  background-color: transparent;
+  color: #009688 !important;
+  outline-width: 0;
+}
+
+/* for underlining links */
+.underline-link, .underline, .hover-underline:hover, .hover-underline-link:hover {
+  text-decoration: underline;
+}
+
+/* for hiding links */
+.hidden-link {
+  color: #000000 !important;
+}
+
+/* for blocking selection */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version */
+}
+
+/* for tables */
+.table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table thead tr {
+  background-color: #269800; /* #009879; */
+  color: #ffffff;
+  text-align: center;
+}
+.table th, .table td {
+  padding: 12px 15px;
+  border-right: thin solid #dddddd;
+}
+.table tbody tr {
+  border-bottom: thin solid #dddddd;
+}
+.table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #269800;
+}
+.table tbody tr.active-row {
+  font-weight: bold;
+  color: #269800;
+}
+Footer
