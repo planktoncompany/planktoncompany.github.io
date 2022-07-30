@@ -36,6 +36,12 @@ a:active, a:hover {
   outline-width: 0;
 }
 
+/* background banner */
+.background-banner, .banner  {
+  background-image: url("https://planktoncompany.github.io/assets/banner.jpg");
+  background-color: #cccccc;
+}
+
 /* for underlining links */
 .underline-link, .underline, .hover-underline:hover, .hover-underline-link:hover {
   text-decoration: underline;
