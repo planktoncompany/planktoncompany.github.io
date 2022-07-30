@@ -17,7 +17,12 @@ td, p {
 
 .text-big, big {
     font-family: "Roboto Mono", sans-serif;
-    font-size:50px
+    font-weight: 400; 
+    font-size: 50px
+}
+
+.text-big, big {
+    margin: 10px 0
 }
 
 /* links */
