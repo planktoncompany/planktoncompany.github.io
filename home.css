@@ -7,16 +7,17 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-text-big {
-    font-size:50px
-}
-
 td, p {
   font-family: "Roboto", sans-serif;  
 }
 
 .bar, h1, button, table thead tr {
   font-family: "Roboto Mono", sans-serif;
+}
+
+.text-big {
+    font-family: "Roboto Mono", sans-serif;
+    font-size:50px
 }
 
 /* links */
