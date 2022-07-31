@@ -27,16 +27,57 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab" defer>
     <!-- google icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- gg.css icons -->
+    <link rel="stylesheet" href="https://css.gg/css">
     <!-- the wiki's CSS file -->
     <link rel="stylesheet" href="./home.css">
   </head>
   
   <body>
    
-	  
-<!-- BLUE HEADING -->	  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- MOBILE HAMBURGER js (fail)
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myNavibar");
+  if (x.className === "navibar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navibar";
+  }
+}
+</script>
+-->
+
+<body>
+
+
+<!-- HEADING -->	  
  <header style="background-image: url('./assets/bannerv2.gif');">
-  <header class="container center" style="padding: 120px 16px">
+<!-- navigation bar -->
+   <div class="navibar">
+   <!-- active class
+    <a class="active" href="#home">Home</a>
+   -->
+      <a href="./news">News</a>
+      <a href="./contact">Contact Us</a>
+     <div class="dropdown">
+      <button class="dropbutton">Home</button>
+     <div class="dropdown-content">
+      <a href="#aboutus">About Us</a>
+      <a href="#history">Our History</a>
+      <a href="#ourteam">Our Team</a>
+     </div>
+     </div>
+    <!-- hamburger mobile
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="material-symbols-outlined">menu</i>
+    </a>
+    -->
+   </div>
+  <header class="container center" style="padding: 90px 16px">
     <h1 class="margin text-white text-big">
      Plankton Company
     </h1>
@@ -64,6 +105,7 @@
 <!-- About us -->
     <div class="row-padding padding-16 container light-grey">
       <div class="content">
+      <div id="aboutus"></div>
         <h3>
           ABOUT US
         </h3>
@@ -82,7 +124,8 @@
  
 <!-- Our history -->
     <div class="row-padding padding-16 container">
-      <div class="content">          
+      <div class="content">
+      <div id="history"></div>
         <h3 class="padding-none">
           OUR HISTORY
         </h3>
@@ -106,6 +149,7 @@
 <!-- Meet our team -->
     <div class="row-padding padding-16 container light-grey">
       <div class="content">     
+      <div id="ourteam"></div>
         <h3 class="padding-none">
           MEET OUR TEAM
         </h3>
